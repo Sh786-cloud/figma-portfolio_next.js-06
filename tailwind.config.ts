@@ -8,10 +8,16 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      container : {
+        center : true,
+        padding :"20px"
       },
+      fontFamily: {
+        inter :'Inter',
+        nunito : 'Nunito',
+        instrument: 'Instrument_Sans'
+      },
+      
     },
   },
   plugins: [],
