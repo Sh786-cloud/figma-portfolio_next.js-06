@@ -2,8 +2,12 @@ import Image from 'next/image'
 import React from 'react'
 import { Inter, Nunito } from 'next/font/google'
 
-const nunito = Nunito();
-const inter = Inter();
+const nunito = Nunito({
+  subsets: ["latin"]
+});
+const inter = Inter({
+  subsets: ['latin']
+});
 
 interface Props{
     image : string

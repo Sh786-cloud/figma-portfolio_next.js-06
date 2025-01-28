@@ -2,8 +2,12 @@ import React from 'react'
 import Image from 'next/image';
 import { Nunito, Inter } from 'next/font/google'
 
-const nunito = Nunito();
-const inter = Inter();
+const nunito = Nunito({
+  subsets: ['latin']
+});
+const inter = Inter({
+  subsets: ['latin']
+});
 
 const Contact = () => {
   return (

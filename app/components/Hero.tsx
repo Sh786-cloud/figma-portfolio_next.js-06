@@ -2,8 +2,12 @@ import React from 'react'
 import { Nunito, Inter } from 'next/font/google'
 import Navbar from './Navbar';
 
-const nunito = Nunito();
-const inter = Inter();
+const nunito = Nunito({
+  subsets: ['latin']
+});
+const inter = Inter({
+  subsets: ['latin']
+});
 
 const Hero = () => {
   return (

@@ -1,7 +1,9 @@
 import React from 'react'
 import { Instrument_Sans } from 'next/font/google'
 
-const instrument = Instrument_Sans();
+const instrument = Instrument_Sans({
+  subsets: ['latin']
+});
 
 const Footer = () => {
   return (

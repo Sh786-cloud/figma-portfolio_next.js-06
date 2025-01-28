@@ -1,8 +1,12 @@
 import React from 'react'
 import { Nunito, Inter } from 'next/font/google'
 
-const nunito = Nunito();
-const inter = Inter();
+const nunito = Nunito({
+  subsets: ['latin']
+});
+const inter = Inter({
+  subsets: ["latin"]
+});
 
 const About = () => {
   return (

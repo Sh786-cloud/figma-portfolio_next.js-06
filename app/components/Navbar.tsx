@@ -2,7 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 
-const inter = Inter()
+const inter = Inter({
+  subsets: ['latin']
+})
 
 const Navbar = () => {
   return (

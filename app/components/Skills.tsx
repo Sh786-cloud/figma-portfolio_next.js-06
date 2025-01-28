@@ -2,7 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 import { Nunito } from 'next/font/google'
 
-const nunito = Nunito();
+const nunito = Nunito({
+  subsets: ['latin']
+});
 
 const Skills = () => {
   return (
